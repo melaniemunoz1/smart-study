@@ -1,0 +1,85 @@
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:100,400,500,500i|Montserrat:100,100i,200,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,400i,500i,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Roboto:100,100i,400i,500i,700&display=swap');
+.site-header {
+    text-align: center;
+    font-family:'Montserrat'
+}
+
+body{
+    background-color: #BCBCBC;
+}
+
+ul{
+    text-align: center;
+   
+}
+.site-navigation{
+    height:100px;
+}
+/*
+.table{
+    display:table;
+    margin:0 auto;
+}
+*/
+ul#horizontal-list{
+    min-width:1000px;
+    list-style:none;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+ul#horizontal-list li{
+    display:inline;
+    padding-right: 100px;
+}
+
+
+.attractor {
+    font-family:'Alegreya Sans';
+    font-size: 17px;
+    text-align: center;
+    color:darkslateblue;
+}
+.tagline{
+    font-family: 'Alegreya Sans';
+    font-size:20px;
+    text-align:center;
+}
+.introduction{
+    font-family: 'Alegreya Sans';
+    font-size: 20px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family:'Roboto', 700;
+    color:darkslateblue;
+}
+.studySkills{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    padding-bottom: 40px;
+    border-radius: 30px;
+    border-top: 6px solid #dfdfdf;
+    grid-gap: 2rem;
+    text-align: center;
+    font-family: 'Alegreya Sans';
+    color:darkslateblue;
+}
+.credits{
+    font-family:'Lora';
+}
+.featured{
+    font-family: 'Lora';
+}
+h3{
+    color:darkslateblue;
+}
+.why{
+    font-family:'Alegreya Sans';
+}
+.whatRetrieval{
+    font-family:'Lora';
+}
