@@ -13,32 +13,23 @@ body{
 
 ul{
     text-align: center;
-   
+
 }
 .site-navigation{
     height:100px;
 }
+
 /*
 .table{
     display:table;
     margin:0 auto;
 }
 */
-ul#horizontal-list{
-    min-width:1000px;
-    list-style:none;
-    padding-top:30px;
-    padding-bottom:30px;
-}
-ul#horizontal-list li{
-    display:inline;
-    padding-right: 100px;
-}
 
 
 .attractor {
     font-family:'Alegreya Sans';
-    font-size: 17px;
+    font-size: 19px;
     text-align: center;
     color:darkslateblue;
 }
@@ -47,10 +38,26 @@ ul#horizontal-list li{
     font-size:20px;
     text-align:center;
 }
+
+.site-nav {
+    text-align: left;
+    overflow: hidden;
+    background-color: #7D838E;
+    padding: 2px;
+    font-size: 17px;
+}
+
+.site-nav li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 15px;
+    margin: 10px;
+
+
+}
 .introduction{
-    font-family: 'Alegreya Sans';
-    font-size: 20px;
     text-align: center;
+    font-size: 18px;
 }
 h2{
     text-align: center;
@@ -82,4 +89,16 @@ h3{
 }
 .whatRetrieval{
     font-family:'Lora';
+}
+.skilllist{
+    color:black;
+}
+.responsive{
+    width: 100%;
+    height: auto;
+}
+.attractor-retrieval{
+    color:darkslateblue;
+    font-size: 25px;
+    text-align: center;
 }
